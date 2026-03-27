@@ -26,3 +26,42 @@ To generate it:
 python src/train.py
 
 4. Run predict.py
+
+# NEW STUFF 1
+
+## Running the Project (Flask API)
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repo-link>
+cd <repo-name>
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Flask server
+
+```bash
+python app.py
+```
+
+### 4. Test the API
+
+Send a POST request to:
+
+```
+http://127.0.0.1:5000/predict
+```
+
+Example JSON:
+
+```json
+{
+  "url": "example.com"
+}
+```
